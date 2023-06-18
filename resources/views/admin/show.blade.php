@@ -2,7 +2,7 @@
   @section ('content')
   <div class="bg-[#F2F2F2] min-h-screen flex items-center justify-center">
     <header class="bg-[#FCE9AB] flex px-4 py-2 h-[60px] fixed top-0 w-full">
-      <a class="text-orange-400 font-semibold text-xl" href="/admin/parkir">
+      <a class="text-orange-400 font-semibold text-xl" href="/admin">
         Kembali</a>
       </a>
     </header>

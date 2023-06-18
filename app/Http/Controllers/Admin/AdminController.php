@@ -17,14 +17,14 @@ class AdminController extends Controller
 
     public function increment($id){
         $parkir = Parkir::find($id);
-        $parkir->kuota_parkir = $parkir->kuota_parkir + 1;
+        $parkir->kendaraan_parkir = $parkir->kendaraan_parkir + 1;
         $parkir->save();
         return redirect()->route('admin')->with('status', 'Kuota parkir berhasil ditambah');
     }
 
     public function decrement($id){
         $parkir = Parkir::find($id);
-        $parkir->kuota_parkir = $parkir->kuota_parkir - 1;
+        $parkir->kendaraan_parkir = $parkir->kendaraan_parkir - 1;
         $parkir->save();
         return redirect()->route('admin')->with('status', 'Kuota parkir berhasil dikurangi');
     }
