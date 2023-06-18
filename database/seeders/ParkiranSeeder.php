@@ -23,7 +23,7 @@ class ParkiranSeeder extends Seeder
             [
                 'kode_parkir' => 'A2',
                 'nama_parkir' => 'Parkiran Informatika',
-                'kuota_parkir' => 150,
+                'kuota_parkir' => 200,
                 'kendaraan_parkir' => 0,
             ],
             [
